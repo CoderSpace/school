@@ -1,0 +1,47 @@
+ h1{
+    text-align:center;
+    color:DarkTurquoise;
+    background-color: black;
+    
+ }
+
+body{
+    margin:0;
+}
+
+.navbar {
+  list-style-type:none;
+  background-color:DarkTurquoise;
+  padding:0%;
+  text-align:center;
+  position:fixed;
+  width:100%;
+  margin:0%;
+  padding-top: 0.5px;
+  display:block;
+}
+
+.navbar li {
+  display:inline-block;
+  margin-left:20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
