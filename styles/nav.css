@@ -1,0 +1,18 @@
+.nav-toggle {
+  display:none;
+  background: none;
+  border-style: solid;
+  border-color: brown;
+  border-radius: .5em;
+  position:fixed;
+  z-index:100;
+}
+
+
+
+.nav-item {
+    display:inline-block;
+
+margin-right:1em;
+    
+}
