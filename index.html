@@ -14,8 +14,9 @@
         <main>
             <h1>School Name</h1>
             <style>
-            * {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
+            h1{
+              text-align:center;
+            }
 .mySlides {display:none}
 
 .slideshow-container {
@@ -51,7 +52,7 @@ body {font-family: Verdana,sans-serif;margin:0}
 
 
 .text {
-  color: #f2f2f2;
+  color: #02a612;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -90,6 +91,19 @@ body {font-family: Verdana,sans-serif;margin:0}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+.s{
+  padding-top:12%;
+  padding-left:5%;
+  width: 50%;
+  font-size:1.3em;
+}
+.d{
+  position:absolute;
+  top:34em;
+  right:12em;
+  width: 20%;
+  font-size:1.3em;
 }
 
 </style>
@@ -140,6 +154,43 @@ body {font-family: Verdana,sans-serif;margin:0}
   <span class="dot" onclick="currentSlide(5)"></span> 
   <span class="dot" onclick="currentSlide(6)"></span>
 </div>
+
+
+<section class="s">
+  <h2>Our School bio</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+  sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+  magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+  quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+  ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+  dolor in hendrerit in vulputate velit esse molestie consequat,
+  vel illum dolore eu feugiat nulla facilisis at vero eros et
+  accumsan et iusto odio dignissim qui blandit praesent luptatum
+  zzril delenit augue duis dolore te feugait nulla facilisi.
+  Nam liber tempor cum soluta nobis eleifend option congue
+  nihil imperdiet doming id quod mazim placerat facer possim
+  assum. Typi non habent claritatem insitam; est usus legentis
+  in iis qui facit eorum claritatem. Investigationes
+  demonstraverunt lectores legere me lius quod ii legunt saepius.
+  Claritas est etiam processus dynamicus, qui sequitur mutationem
+  consuetudium lectorum. Mirum est notare quam littera gothica,
+  quam nunc putamus parum claram, anteposuerit litterarum formas
+  humanitatis per seacula quarta decima et quinta decima. Eodem
+  modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
+  in futurum.</p>
+</section>
+<section class="d">
+  <h2>Events</h2>
+  <ul>
+    <li>Lorem ipsum </li>
+     <li>Lorem ipsum </li>
+      <li>Lorem ipsum </li>
+       <li>Lorem ipsum </li>
+        <li>Lorem ipsum </li>
+         <li>Lorem ipsum</li>
+  </ul>
+  <p><a href="#.html">Lorem ipsum </a></p>
+</section>
 
 <script>
 var slideIndex = 1;
