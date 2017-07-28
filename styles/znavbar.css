@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+    
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    height: 100%;
+}
+
+header {
+    padding: 50px;
+   background:#112233; 
+text-align: center;
+    
+}
+
+.navigationdesktop {
+    background:black;
+}
+
+nav {
+    height: 40px;
+    width: 560px;
+    display: block;
+margin: 0 auto;
+text-align: center;
+    
+}
