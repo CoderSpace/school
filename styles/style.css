@@ -25,6 +25,7 @@ ul li {
   font-size:120%;
   display:inline;
   padding:10%;
+  margin: 2px;
 }
 
 ul a {
@@ -36,7 +37,20 @@ ul li a:hover {
 }
 
 ul li ul li{
-    display:none;
+    display:none; 
+    position: relative;
+}
+
+ul li:hover ul li{
+    display:block;
+    height:20%;
+}
+
+
+ul nav:hover ul nav{
+    width:50%;
+    
+    
 }
 
 
