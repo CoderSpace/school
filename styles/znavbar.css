@@ -27,6 +27,7 @@ h2 {
 
 .navigationdesktop {
     background: yellow;
+  
 }
 
 nav {
@@ -36,6 +37,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
+
 }
 
 nav a {
@@ -59,6 +61,7 @@ nav ul li {
     line-height: 40px;
     line-height: 40px;
     background: yellow;
+    z-index:1;
 }
 
 nav ul ul li {
