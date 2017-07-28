@@ -1,5 +1,5 @@
 footer {
-     position: absolute;
+     /*position: fixed;*/
   width:100%;
   bottom:0;
   font-family: 'Roboto Condensed', sans-serif;
@@ -10,11 +10,24 @@ footer {
   background-color:gray;
   border-color:white;
   color:white;
+  display:block;
 }
+
+
 
 @media(max-width:450px) {
     footer {
         bottom: 0;
         border-top: 5px solid black;
     }
+}
+
+
+.pf{
+    text-align:center;
+    font-size:1em;
+}
+
+.p{
+    float:right;
 }
