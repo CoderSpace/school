@@ -1,3 +1,5 @@
+
+
 footer {
      /*position: fixed;*/
   width:100%;
@@ -23,6 +25,7 @@ footer {
 }
 
 
+<<<<<<< HEAD
 .pf{
     text-align:center;
     font-size:1em;
@@ -31,3 +34,45 @@ footer {
 .p{
     float:right;
 }
+=======
+ h1 {
+    text-align:center;
+    color:DarkTurquoise;
+    background-color: black;
+    width:100%;
+S
+ }
+ 
+ nav {
+  background-color:black;
+  width:100vw;
+  padding:0.05%;
+  padding-left:10%;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+ul li {
+   list-style-type:none;
+  text-align:center;
+  font-size:120%;
+  display:inline;
+  padding:10%;
+}
+
+ul a {
+  color:white;
+  text-decoration:none;
+}
+ul li a:hover {
+    background-color:green;
+}
+
+ul li ul li{
+    display:none;
+}
+>>>>>>> 2886a608f526bd0e32e43f2bc64dc6ffefe11d03
