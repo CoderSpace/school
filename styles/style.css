@@ -1,3 +1,40 @@
+
+
+footer {
+     /*position: fixed;*/
+  width:100%;
+  bottom:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 80%;
+  left:0;
+  right:0;
+  background-color:gray;
+  border-color:white;
+  color:white;
+  display:block;
+}
+
+
+
+@media(max-width:450px) {
+    footer {
+        bottom: 0;
+        border-top: 5px solid black;
+    }
+}
+
+
+<<<<<<< HEAD
+.pf{
+    text-align:center;
+    font-size:1em;
+}
+
+.p{
+    float:right;
+}
+=======
  h1 {
     text-align:center;
     color:DarkTurquoise;
@@ -52,19 +89,4 @@ ul nav:hover ul nav{
     
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+>>>>>>> 2886a608f526bd0e32e43f2bc64dc6ffefe11d03
