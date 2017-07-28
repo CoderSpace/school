@@ -1,34 +1,43 @@
- h1{
+ h1 {
     text-align:center;
     color:DarkTurquoise;
     background-color: black;
-    
+    width:100%;
+S
  }
+ 
+ nav {
+  background-color:black;
+  width:100vw;
+  padding:0.05%;
+  padding-left:10%;
+}
 
-body{
+ul{
     margin:0;
+    padding:0;
+    list-style: none;
 }
 
-.navbar {
-  list-style-type:none;
-  background-color:DarkTurquoise;
-  padding:0%;
+ul li {
+   list-style-type:none;
   text-align:center;
-  position:fixed;
-  width:100%;
-  margin:0%;
-  padding-top: 0.5px;
-  display:block;
+  font-size:120%;
+  display:inline;
+  padding:10%;
 }
 
-.navbar li {
-  display:inline-block;
-  margin-left:20px;
-  
+ul a {
+  color:white;
+  text-decoration:none;
+}
+ul li a:hover {
+    background-color:green;
 }
 
-
-
+ul li ul li{
+    display:none;
+}
 
 
 
