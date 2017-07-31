@@ -12,6 +12,8 @@ html {
     min-height: 50%;
     width: 100%;
     position: relative;
+    z-index:20;
+    top:0;
 }
 
 body {
@@ -23,17 +25,16 @@ h2 {
     background: #112233;
     text-align: center;
     color: white;
-}
+ }
 
 .navigationdesktop {
     background: yellow;
-<<<<<<< HEAD
-    z-index:2;
-=======
- position: fixed; 
- top: 0;
+
+    position: relative;
     z-index: 20;
->>>>>>> 165f6582edfcef6582e2484fec1ab7369e4ef1a7
+    width:100%;
+
+
 }
 
 nav {
@@ -43,11 +44,6 @@ nav {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
-<<<<<<< HEAD
-    z-index:2;
-=======
-
->>>>>>> 165f6582edfcef6582e2484fec1ab7369e4ef1a7
 }
 
 nav a {
@@ -71,7 +67,7 @@ nav ul li {
     line-height: 40px;
     line-height: 40px;
     background: yellow;
-    z-index:1;
+    z-index: 1;
 }
 
 nav ul ul li {
@@ -82,33 +78,24 @@ nav ul ul li {
 
 nav ul li:hover ul li {
     display: block;
-animation:navmenu 500ms;
-    
+    animation: navmenu 500ms;
 }
 
-@keyframes navmenu{
+@keyframes navmenu {
     0% {
         opacity: 0;
         top: 5px
     }
     100% {
-        opacity:1;
+        opacity: 1;
         top: 0px;
+
     }
-<<<<<<< HEAD
-}
-=======
-}
-
-
 
 
 .nav-toggle {
     display: none;
-
 }
-
-
 
 .nav-item {
     display: inline-block;
@@ -116,18 +103,11 @@ animation:navmenu 500ms;
     display: block;
 }
 
-
 @media (max-width:400px) {
     .nav-toggle {
         display: block;
     }
-    
-    
     .mobile-nav-hidden {
         display: none;
     }
 }
-
-
-
->>>>>>> 165f6582edfcef6582e2484fec1ab7369e4ef1a7
