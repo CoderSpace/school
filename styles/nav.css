@@ -2,6 +2,7 @@
     
     .h{
       position: relative;
+<<<<<<< HEAD
       margin-top: 10%;
       background:white;
       color: black;
@@ -13,3 +14,28 @@
   width: 20%;
   font-size:1.3em;
 }
+=======
+      margin-top: 5%;
+
+    }
+    
+.navbar {
+  list-style-type:none;
+  background-color:DarkTurquoise;
+  padding:0%;
+  text-align:center;
+  position:fixed;
+  top:0%;
+  width:100%;
+  margin:0%;
+  z-index:1;
+  padding-top: 0.5px;
+  display:block;
+}
+
+.navbar li {
+  display:inline-block;
+  margin-left:20px;
+  
+}
+>>>>>>> 8b35480063a4cdf9bfa083dcbdae91b937b8a25a
