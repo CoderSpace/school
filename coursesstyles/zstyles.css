@@ -1,7 +1,12 @@
+.mathscience
+{
+   display: flex;
+border-style: solid;
+    border-color: yellow;
+}
+
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
     background-color: #F9FBFE;
     align-content: stretch;
     margin-left: auto;
@@ -17,8 +22,8 @@ margin-left:10%;
  .sciencepic {
      border-style:solid;
  border-color: black;
- height: 75%;
-    width: 70%;
+ height: 70%;
+    width: 100%;
  }
 
 .mathpic {
@@ -43,3 +48,4 @@ border-color: blue;
 footer {border-style: solid;
     border-color:red;
 }
+
