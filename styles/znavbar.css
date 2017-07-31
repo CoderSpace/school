@@ -27,7 +27,9 @@ h2 {
 
 .navigationdesktop {
     background: yellow;
-  
+ position: fixed; 
+ top: 0;
+    z-index: 20;
 }
 
 nav {
@@ -86,3 +88,34 @@ animation:navmenu 500ms;
         top: 0px;
     }
 }
+
+
+
+
+.nav-toggle {
+    display: none;
+
+}
+
+
+
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+    display: block;
+}
+
+
+@media (max-width:400px) {
+    .nav-toggle {
+        display: block;
+    }
+    
+    
+    .mobile-nav-hidden {
+        display: none;
+    }
+}
+
+
+
