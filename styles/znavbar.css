@@ -23,17 +23,11 @@ h2 {
     background: #112233;
     text-align: center;
     color: white;
-}
+ }
 
 .navigationdesktop {
     background: yellow;
-<<<<<<< HEAD
     z-index:2;
-=======
- position: fixed; 
- top: 0;
-    z-index: 20;
->>>>>>> 165f6582edfcef6582e2484fec1ab7369e4ef1a7
 }
 
 nav {
@@ -43,11 +37,6 @@ nav {
     margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
-<<<<<<< HEAD
-    z-index:2;
-=======
-
->>>>>>> 165f6582edfcef6582e2484fec1ab7369e4ef1a7
 }
 
 nav a {
@@ -95,39 +84,10 @@ animation:navmenu 500ms;
         opacity:1;
         top: 0px;
     }
-<<<<<<< HEAD
-}
-=======
-}
 
 
 
 
-.nav-toggle {
-    display: none;
-
-}
 
 
 
-.nav-item {
-    display: inline-block;
-    margin-right: 1em;
-    display: block;
-}
-
-
-@media (max-width:400px) {
-    .nav-toggle {
-        display: block;
-    }
-    
-    
-    .mobile-nav-hidden {
-        display: none;
-    }
-}
-
-
-
->>>>>>> 165f6582edfcef6582e2484fec1ab7369e4ef1a7
