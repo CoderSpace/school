@@ -19,6 +19,7 @@ body {
     height: 100%;
 }
 
+<<<<<<< HEAD
 h2 {
     padding: 50px;
     background: #112233;
@@ -83,5 +84,14 @@ animation:navmenu 500ms;
         opacity:1;
         top: 0px;
     }
+}
+
+.pf{
+    text-align:center;
+    font-size:1em;
+}
+
+.p{
+    float:right;
 }
 
