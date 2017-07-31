@@ -99,3 +99,16 @@ h1{
   margin:5%;
   top:10%;
 }
+footer {
+  width:100%;
+  bottom:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 80%;
+  left:0;
+  right:0;
+  background-color:gray;
+  border-color:white;
+  color:white;
+  display:block;
+}
