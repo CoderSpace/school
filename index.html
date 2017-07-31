@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
       <link rel="stylesheet" href="styles/znavbar.css">
           <link rel="stylesheet" href="styles/style.css">
@@ -19,8 +20,21 @@
             <nav>
                 <ul>
 
-                    <li> <a href="index.html">Home</a>
-                    </li>
+
+            <div class="mySlides fade">
+                <img src="http://via.placeholder.com/350x150" style="width:100%">
+                <div class="text">School Picture 1</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="http://via.placeholder.com/350x151" style="width:100%">
+                <div class="text">School Picture 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="http://via.placeholder.com/350x152" style="width:100%">
+                <div class="text">School Picture 3</div>
+            </div>
 
                     <li> <a href="about.html">About Us</a>
                         <ul>
@@ -42,12 +56,36 @@
                     <li> <a href="contact.html">Contact</a>
                     </li>
 
-                    
-            </nav>
+            <div class="mySlides fade">
+                <img src="http://via.placeholder.com/350x153" style="width:100%">
+                <div class="text">School Picture 4</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="http://via.placeholder.com/350x154" style="width:100%">
+                <div class="text">School Picture 5</div>
+            </div>
+            <div class="mySlides fade">
+                <img src="http://via.placeholder.com/350x155" style="width:100%">
+                <div class="text">School Picture 6</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">
+                <</a>
+                    <a class="next" onclick="plusSlides(1)">></a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
         </div>
 
-        <main></main>
-    
+
 
         </header>
         <main>
@@ -141,11 +179,17 @@
         </main>
         
            <footer>
+
         <p class="pf"> 123 sesame street, Chicago,IL 60643 </p>
         <p class="pf"> example@gmail.com </p>
         <p class="pf"> 555-555-5555 </p>
     </footer>
 
+
+
     </body>
+
     <script type="text/javascript" src="js/slideshow.js"></script>
+</body>
+
 </html>
