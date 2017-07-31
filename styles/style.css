@@ -119,4 +119,25 @@ animation:navmenu 500ms;
     float:right;
 }
 
+footer {
+  width:100%;
+  bottom:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 80%;
+  left:0;
+  right:0;
+  background-color:gray;
+  border-color:white;
+  color:white;
+  display:block;
+}
 
+
+
+@media(max-width:450px) {
+    footer {
+        bottom: 0;
+        border-top: 5px solid black;
+    }
+}
