@@ -86,6 +86,8 @@ h1{
   width: 50%;
   font-size:1.3em;
 }
+<<<<<<< HEAD
+=======
 .d{
   display:flex;
   flex-wrap:wrap;
@@ -95,6 +97,7 @@ h1{
   width: 20%;
   font-size:1.3em;
 }
+<<<<<<< HEAD
 
 .h{
   position:relative;
@@ -122,3 +125,6 @@ footer {
 .item {
     margin: 10px;
 }
+=======
+>>>>>>> 8b35480063a4cdf9bfa083dcbdae91b937b8a25a
+>>>>>>> master
