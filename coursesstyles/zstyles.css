@@ -17,7 +17,9 @@ main {
 border-color:#218A5F;
 margin-right:10%;
 margin-left:10%;
-    border-style: solid
+    border-style: solid;
+
+    display:flex;
 }
  
  .sciencepic {
@@ -47,7 +49,15 @@ border-color: blue;
 
 footer {border-style: solid;
     border-color:red;
+}
 
-    align-content:flex-end;
+.m {
+    border-color: brown;
+    border-style:solid;
+}
+
+.s {
+     border-color: black;
+    border-style:solid;
 }
 
