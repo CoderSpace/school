@@ -87,6 +87,8 @@ h1{
   font-size:1.3em;
 }
 .d{
+  display:flex;
+  flex-wrap:wrap;
   position:absolute;
      top: 55em;
   right:12em;
@@ -112,7 +114,11 @@ footer {
   color:white;
   display:block;
 }
+.d .s {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-@media(max-width:4px){
-  
+.item {
+    margin: 10px;
 }
