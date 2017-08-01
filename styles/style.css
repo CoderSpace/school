@@ -46,7 +46,6 @@ footer {
 
 main {
     padding:5%;
-    margin-top:15%;
 }
 
 .img {
@@ -84,7 +83,7 @@ nav a {
     text-decoration: none;
 }
 
- h1 {
+ nav h1 {
     text-align:center;
     color:DarkTurquoise;
     background-color: black;
@@ -148,4 +147,18 @@ animation:navmenu 500ms;
 
 .p{
     float:right;
+}
+
+.science {
+    width: 30%;
+    float: left;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-size:3em;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:2%;
 }
