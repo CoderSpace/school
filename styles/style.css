@@ -41,7 +41,6 @@ footer {
 
 main {
     padding:5%;
-    margin-top:15%;
 }
 
 .img {
@@ -65,7 +64,22 @@ main {
     text-align:center;
     font-size:1em;
 
- h1 {
+
+nav {
+    height: 40px;
+    width: 560px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+ nav h1 {
     text-align:center;
     color:DarkTurquoise;
     background-color: black;
@@ -129,4 +143,18 @@ animation:navmenu 500ms;
 
 .p{
     float:right;
+}
+
+.science {
+    width: 30%;
+    float: left;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-size:3em;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:2%;
 }
