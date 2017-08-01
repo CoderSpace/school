@@ -12,13 +12,7 @@ html {
     min-height: 50%;
     width: 100%;
     position: relative;
-<<<<<<< HEAD:coursesstyles/znavbar.css
    border-style:solid;}
-=======
-    z-index:20;
-    top:0;
-}
->>>>>>> f82b593360a9030d094239b375029afe3354deeb:styles/znavbar.css
 
 body {
     height: 100%;
@@ -93,30 +87,5 @@ nav ul li:hover ul li {
     100% {
         opacity: 1;
         top: 0px;
-<<<<<<< HEAD:coursesstyles/znavbar.css
     }
 }
-=======
-
-    }
-
-
-.nav-toggle {
-    display: none;
-}
-
-.nav-item {
-    display: inline-block;
-    margin-right: 1em;
-    display: block;
-}
-
-@media (max-width:400px) {
-    .nav-toggle {
-        display: block;
-    }
-    .mobile-nav-hidden {
-        display: none;
-    }
-}
->>>>>>> f82b593360a9030d094239b375029afe3354deeb:styles/znavbar.css
