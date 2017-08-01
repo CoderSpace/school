@@ -1,7 +1,10 @@
 h1{
               text-align:center;
             }
-.mySlides {display:none}
+.mySlides {
+  display:none
+  
+}
 
 .slideshow-container {
   max-width: 1000px;
@@ -76,6 +79,7 @@ h1{
   from {opacity: .4} 
   to {opacity: 1}
 }
+
 .s{
   padding-top:12%;
   padding-left:5%;
@@ -92,5 +96,19 @@ h1{
 
 .h{
   position:relative;
-  margin:3%;
+  margin:5%;
+  top:10%;
+}
+footer {
+  width:100%;
+  bottom:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 80%;
+  left:0;
+  right:0;
+  background-color:gray;
+  border-color:white;
+  color:white;
+  display:block;
 }
