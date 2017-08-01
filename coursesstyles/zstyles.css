@@ -3,6 +3,7 @@
    display: flex;
 border-style: solid;
     border-color: yellow;
+
 }
 
 main {
@@ -23,13 +24,12 @@ margin-left:10%;
      border-style:solid;
  border-color: black;
  height: 70%;
-    width: 100%;
+    width: 40%;
  }
 
 .mathpic {
 height: 70%;
 width: 40%;
-
 border-color: hotpink;
 border-style: solid;
 }
@@ -47,5 +47,7 @@ border-color: blue;
 
 footer {border-style: solid;
     border-color:red;
+
+    align-content:flex-end;
 }
 
