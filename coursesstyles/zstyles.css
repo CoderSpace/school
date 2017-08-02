@@ -1,15 +1,15 @@
-.mathscience
+/*.mathscience
 {
    display: flex;
 border-style: solid;
-    border-color: yellow;
+    border-color: yellow;}*/
 
-}
+
 
 main {
     
     background-color: #F9FBFE;
-    align-content: stretch;
+    
     margin-left: auto;
     margin-right: auto;
     height: 100%;
@@ -17,19 +17,20 @@ main {
 border-color:#218A5F;
 margin-right:10%;
 margin-left:10%;
-    border-style: solid
+    border-style: solid;
+    display:flex;
 }
  
- .sciencepic {
+ .s {
      border-style:solid;
  border-color: black;
  height: 70%;
     width: 40%;
  }
 
-.mathpic {
-height: 70%;
-width: 40%;
+.m {
+height: inherit;
+width: inherit;
 border-color: hotpink;
 border-style: solid;
 }
@@ -47,7 +48,15 @@ border-color: blue;
 
 footer {border-style: solid;
     border-color:red;
+}
 
-    align-content:flex-end;
+.m {
+    border-color: brown;
+    border-style:solid;
+}
+
+.s {
+     border-color: black;
+    border-style:solid;
 }
 
