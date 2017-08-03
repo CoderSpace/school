@@ -44,12 +44,7 @@ footer {
 }
 
 main {
-<<<<<<< HEAD
-    padding: 5%;
-    margin-top: 15%;
-=======
     padding:5%;
->>>>>>> 0ca18aecf132f90212076889de169ce43af026f8
 }
 
 .img {
@@ -58,69 +53,18 @@ main {
 }
 
 @media(max-width:450px) {
+   
     footer {
         bottom: 0;
         border-top: 5px solid black;
     }
 }
 
-.navigationdesktop {
-    background: yellow;
-}
 
-.pf {
-    text-align: center;
-    font-size: 1em;
-    h1 {
-        text-align: center;
-        color: DarkTurquoise;
-        background-color: black;
-        width: 100%;
-    }
-    main {
-        padding: 5%;
-    }
-    .img {
-        padding: 2%;
-        width: 50%;
-    }
-    nav a:hover {
-        background: #223433;
-        color: white;
-    }
-    nav ul {
-        list-style-type: none;
-    }
-    nav ul li {
-        float: left;
-        width: 140px;
-        height: 40px;
-        line-height: 40px;
-        line-height: 40px;
-        background: yellow;
-    }
-    nav ul ul li {
-        position: relative;
-        display: none;
-        position: relative;
-    }
-    nav ul li:hover ul li {
-        display: block;
-        animation: navmenu 500ms;
-    }
-    @keyframes navmenu {
-        0% {
-            opacity: 0;
-            top: 5px
-        }
-        100% {
-            opacity: 1;
-            top: 0px;
-        }
-    }
     .pf {
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
+        
     }
     .p {
         float: right;
@@ -134,6 +78,7 @@ body {
 	line-height:30px;
 	color:#777;
 	background:DarkGrey;
+	margin:0;
 }
 
 .container {
@@ -145,37 +90,10 @@ body {
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
-<<<<<<< HEAD
 #contact {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
-=======
-
-nav {
-    height: 40px;
-    width: 560px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-}
-
- nav h1 {
-    text-align:center;
-    color:DarkTurquoise;
-    background-color: black;
-    width:100%;
- }
- 
- main {
-    padding:5%;
->>>>>>> 0ca18aecf132f90212076889de169ce43af026f8
 }
 
 #contact h3 {
@@ -261,8 +179,9 @@ fieldset {
 
 
 h1{
-              text-align:center;
-            }
+   text-align:center;
+   }
+   
 .mySlides {
   display:none
   
@@ -362,24 +281,4 @@ h1{
   top:10%;
 }
 
-<<<<<<< HEAD
   
-=======
-.p{
-    float:right;
-}
-
-.science {
-    width: 30%;
-    float: left;
-    padding: 2%;
-    margin-bottom: 5%;
-}
-
-h3 {
-    font-size:3em;
-    text-align:center;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin:2%;
-}
->>>>>>> 0ca18aecf132f90212076889de169ce43af026f8
