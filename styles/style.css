@@ -61,9 +61,6 @@ main {
     }
 }
 
-.navigationdesktop {
-    background: yellow;
-}
 
 .pf {
     text-align: center;
@@ -82,7 +79,7 @@ main {
         width: 50%;
     }
     nav a:hover {
-        background: #223433;
+        background: black;
         color: white;
     }
     nav ul {
@@ -94,7 +91,7 @@ main {
         height: 40px;
         line-height: 40px;
         line-height: 40px;
-        background: yellow;
+        background: white;
     }
     nav ul ul li {
         position: relative;
