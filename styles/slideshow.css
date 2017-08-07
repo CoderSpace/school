@@ -96,6 +96,7 @@ h1 {
   padding-top: 9%;
   padding-left: 5%;
   width: 50%;
+<<<<<<< HEAD
   font-size: 1.3em;
 }
 
@@ -139,3 +140,12 @@ footer {
 }
 
 
+=======
+  font-size:1.3em;
+}
+
+.d{
+  position: relative;
+  right:0%;
+}
+>>>>>>> master
