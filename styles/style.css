@@ -17,17 +17,14 @@ html {
     height: 100%;
 }
 
+
 .wrapper {
     min-height: 100%;
     width: 100%;
     position: relative;
 }
 
-h2 {
-    background: #112233;
-    text-align: center;
-    color: white;
-}
+
 
 footer {
     width: 100%;
@@ -60,11 +57,13 @@ main {
     }
 }
 
+
+.pf {
+    text-align: center;
+    font-size: 1em;
+}
     h1 {
         text-align: center;
-        color: DarkTurquoise;
-        background-color: black;
-        width: 100%;
     }
     main {
         padding: 5%;
@@ -73,30 +72,7 @@ main {
         padding: 2%;
         width: 50%;
     }
-    nav a:hover {
-        background: black;
-        color: white;
-    }
-    nav ul {
-        list-style-type: none;
-    }
-    nav ul li {
-        float: left;
-        width: 140px;
-        height: 40px;
-        line-height: 40px;
-        line-height: 40px;
-        background: white;
-    }
-    nav ul ul li {
-        position: relative;
-        display: none;
-        position: relative;
-    }
-    nav ul li:hover ul li {
-        display: block;
-        animation: navmenu 500ms;
-    }
+  
     @keyframes navmenu {
         0% {
             opacity: 0;
@@ -115,6 +91,7 @@ main {
     .p {
         float: right;
     }
+
 
 
 body {
@@ -351,28 +328,3 @@ fieldset {
 :-ms-input-placeholder {
  color:#888;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
