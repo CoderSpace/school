@@ -16,20 +16,7 @@
 html {
     height: 100%;
 }
-.navigationdesktop{
-    font-size: .8em;
-}
-.wrapper {
-    min-height: 100%;
-    width: 100%;
-    position: relative;
-}
 
-h2 {
-    background: #112233;
-    text-align: center;
-    color: white;
-}
 
 footer {
     width: 100%;
@@ -66,11 +53,9 @@ main {
 .pf {
     text-align: center;
     font-size: 1em;
+}
     h1 {
         text-align: center;
-        color: DarkTurquoise;
-        background-color: black;
-        width: 100%;
     }
     main {
         padding: 5%;
@@ -79,30 +64,7 @@ main {
         padding: 2%;
         width: 50%;
     }
-    nav a:hover {
-        background: black;
-        color: white;
-    }
-    nav ul {
-        list-style-type: none;
-    }
-    nav ul li {
-        float: left;
-        width: 140px;
-        height: 40px;
-        line-height: 40px;
-        line-height: 40px;
-        background: white;
-    }
-    nav ul ul li {
-        position: relative;
-        display: none;
-        position: relative;
-    }
-    nav ul li:hover ul li {
-        display: block;
-        animation: navmenu 500ms;
-    }
+  
     @keyframes navmenu {
         0% {
             opacity: 0;
@@ -123,15 +85,6 @@ main {
     }
 
 
-body {
-	font-family:"Open Sans", Helvetica, Arial, sans-serif;
-	font-weight:300;
-	font-size: 12px;
-	line-height:30px;
-	color:#777;
-	background:DarkGrey;
-	margin:0;
-}
 
 .container {
 	max-width:400px;
@@ -147,9 +100,21 @@ body {
 	padding:25px;
 	margin:50px 0;
 }
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#9e9e9e;
+	padding:25px;
+	margin:50px 0;
+
+}
+ main {
+    padding:5%;
+
+}
 
 #contact h3 {
-	color: #F96;
+	color: #f9f9f9;;
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
@@ -159,6 +124,7 @@ body {
 	margin:5px 0 15px;
 	display:block;
 	font-size:13px;
+	text-align:center;
 }
 
 fieldset {
@@ -229,198 +195,20 @@ fieldset {
 
 
 
-
-h1{
-   text-align:center;
-   }
-   
-.mySlides {
-  display:none
-  
+.p{
+    float:right;
 }
 
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-
-.text {
-  color: #02a612;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-.s{
-  padding-top:12%;
-  padding-left:5%;
-  width: 50%;
-  font-size:1.3em;
-}
-.d{
-  position:absolute;
-  top: 44em;
-  right:12em;
-  width: 20%;
-  font-size:1.3em;
-}
-
-.h{
-  position:relative;
-  margin:5%;
-  top:10%;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    height: 100%;
-}
-
-.wrapper {
-    min-height: 50%;
-    width: 100%;
-    position: relative;
-   border-style:solid;}
-
-body {
-    height: 100%;
-}
-
-h2 {
-    padding: 50px;
-    background: grey;
-    text-align: center;
-    color: white;
- }
-
-.navigationdesktop {
-    background:white;
-    position: relative;
-    z-index: 20;
-    width:100%;
-
-
-}
-
-nav {
-    height: 40px;
-    width: 560px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background: black;
-    color: white;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
+.science {
+    width: 30%;
     float: left;
-    width: 140px;
-    height: 40px;
-    line-height: 40px;
-    line-height: 40px;
-    background: white;
-    z-index: 1;
+    padding: 2%;
+    margin-bottom: 5%;
 }
 
-nav ul ul li {
-    position: relative;
-    display: none;
-    position: relative;
-    font
-}
-
-nav ul li:hover ul li {
-    display: block;
-    animation: navmenu 500ms;
-}
-
-@keyframes navmenu {
-    0% {
-        opacity: 0;
-        top: 5px
-    }
-    100% {
-        opacity: 1;
-        top: 0px;
-    }
+h3 {
+    font-size:3em;
+    text-align:center;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:2%;
 }
