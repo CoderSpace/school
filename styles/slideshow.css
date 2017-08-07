@@ -92,13 +92,6 @@ h1 {
   }
 }
 
-<<<<<<< HEAD
-
-.h{
-  position:relative;
-  margin:5%;
-  top:10%;
-}
 footer {
   width:100%;
   bottom:0;
@@ -209,3 +202,4 @@ header, footer {
   grid-template-columns:repeat(auto-fill, minmax(40%, 5fr));
   grid-auto-rows: minmax(20%, auto);
   grid-gap:10% 10%;
+}
