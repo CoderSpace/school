@@ -17,6 +17,17 @@ html {
     height: 100%;
 }
 
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h2 {
+    background: #112233;
+    text-align: center;
+    color: white;
+}
 
 footer {
     width: 100%;
@@ -33,7 +44,12 @@ footer {
 }
 
 main {
+<<<<<<< HEAD
+    padding: 5%;
+    margin-top: 15%;
+=======
     padding:5%;
+>>>>>>> 0ca18aecf132f90212076889de169ce43af026f8
 }
 
 .img {
@@ -42,20 +58,24 @@ main {
 }
 
 @media(max-width:450px) {
-   
     footer {
         bottom: 0;
         border-top: 5px solid black;
     }
 }
 
+.navigationdesktop {
+    background: yellow;
+}
 
 .pf {
     text-align: center;
     font-size: 1em;
-}
     h1 {
         text-align: center;
+        color: DarkTurquoise;
+        background-color: black;
+        width: 100%;
     }
     main {
         padding: 5%;
@@ -64,7 +84,30 @@ main {
         padding: 2%;
         width: 50%;
     }
-  
+    nav a:hover {
+        background: #223433;
+        color: white;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        float: left;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        line-height: 40px;
+        background: yellow;
+    }
+    nav ul ul li {
+        position: relative;
+        display: none;
+        position: relative;
+    }
+    nav ul li:hover ul li {
+        display: block;
+        animation: navmenu 500ms;
+    }
     @keyframes navmenu {
         0% {
             opacity: 0;
@@ -114,7 +157,11 @@ main {
 }
 
 #contact h3 {
-	color: #f9f9f9;;
+<<<<<<<<< saved version
+
+=========
+	color: #F96;
+>>>>>>>>> local version
 	display: block;
 	font-size: 30px;
 	font-weight: 400;
