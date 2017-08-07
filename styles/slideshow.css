@@ -86,8 +86,7 @@ h1{
   width: 50%;
   font-size:1.3em;
 }
-<<<<<<< HEAD
-=======
+
 .d{
   display:flex;
   flex-wrap:wrap;
@@ -97,26 +96,13 @@ h1{
   width: 20%;
   font-size:1.3em;
 }
-<<<<<<< HEAD
 
 .h{
   position:relative;
   margin:5%;
   top:10%;
 }
-footer {
-  width:100%;
-  bottom:0;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  font-size: 80%;
-  left:0;
-  right:0;
-  background-color:gray;
-  border-color:white;
-  color:white;
-  display:block;
-}
+
 .d .s {
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +111,4 @@ footer {
 .item {
     margin: 10px;
 }
-=======
->>>>>>> 8b35480063a4cdf9bfa083dcbdae91b937b8a25a
->>>>>>> master
+

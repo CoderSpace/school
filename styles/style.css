@@ -30,11 +30,11 @@ h2 {
 }
 
 footer {
-    width: 100%;
+    width:100%;
     bottom: 0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    font-size: 80%;
+    font-size: 1em;
     left: 0;
     right: 0;
     background-color: gray;
@@ -44,12 +44,9 @@ footer {
 }
 
 main {
-<<<<<<< HEAD
     padding: 5%;
+    width:100%;
     margin-top: 15%;
-=======
-    padding:5%;
->>>>>>> 0ca18aecf132f90212076889de169ce43af026f8
 }
 
 .img {
@@ -71,6 +68,7 @@ main {
 .pf {
     text-align: center;
     font-size: 1em;
+}
     h1 {
         text-align: center;
         color: DarkTurquoise;
@@ -125,6 +123,18 @@ main {
     .p {
         float: right;
     }
+    
+.fa-twitter-square{
+      color:white;
+}
+
+.fa-instagram {
+      color:white;
+}
+
+.fa-envelope{
+      color:white;
+}    
 
 
 body {
@@ -145,37 +155,10 @@ body {
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
-<<<<<<< HEAD
 #contact {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
-=======
-
-nav {
-    height: 40px;
-    width: 560px;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-}
-
- nav h1 {
-    text-align:center;
-    color:DarkTurquoise;
-    background-color: black;
-    width:100%;
- }
- 
- main {
-    padding:5%;
->>>>>>> 0ca18aecf132f90212076889de169ce43af026f8
 }
 
 #contact h3 {
