@@ -86,18 +86,7 @@ h1{
   width: 50%;
   font-size:1.3em;
 }
-<<<<<<< HEAD
-=======
-.d{
-  display:flex;
-  flex-wrap:wrap;
-  position:absolute;
-     top: 55em;
-  right:12em;
-  width: 20%;
-  font-size:1.3em;
-}
-<<<<<<< HEAD
+
 
 .h{
   position:relative;
@@ -117,14 +106,87 @@ footer {
   color:white;
   display:block;
 }
-.d .s {
-    display: flex;
-    flex-wrap: wrap;
+.s{
+  padding-top:10%;
+  padding-left:5%;
+  width: 50%;
+  font-size:1.3em;
+}
+.d{
+  position:absolute;
+  top: 47em;
+  right:12em;
+  width: 20%;
+  font-size:1.3em;
 }
 
 .item {
     margin: 10px;
 }
-=======
->>>>>>> 8b35480063a4cdf9bfa083dcbdae91b937b8a25a
->>>>>>> master
+
+.navigationdesktop{
+    font-size: .8em;
+    background: DarkGray;
+ 
+}
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h2 {
+    background: Grey;
+    text-align: center;
+    color: white;
+    height: 40px;
+}
+  nav a:hover {
+        background: Black;
+        color:White ;
+      
+  
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        float: left;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        line-height: 40px;
+        background: DarkGray;
+    }
+    nav ul ul li {
+        position: relative;
+        display: none;
+    }
+    nav ul li:hover ul li {
+        display: block;
+        animation: navmenu 500ms;
+    }
+    nav {
+    height: 40px;
+    width: 560px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+}
+
+ nav h1 {
+    text-align:center;
+    color:DarkGray;
+    background-color: black;
+    width:100%;
+         z-index:20;
+ }
+ 
