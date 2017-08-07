@@ -16,7 +16,24 @@
 html {
     height: 100%;
 }
+<<<<<<< HEAD
 
+=======
+.navigationdesktop{
+    font-size: .8em;
+}
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h2 {
+    background: #112233;
+    text-align: center;
+    color: white;
+}
+>>>>>>> 41f72f967d9b44c90116ddf3a452b33a13897116
 
 footer {
     width: 100%;
@@ -65,7 +82,34 @@ main {
         padding: 2%;
         width: 50%;
     }
+<<<<<<< HEAD
   
+=======
+    nav a:hover {
+        background: black;
+        color: white;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        float: left;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        line-height: 40px;
+        background: white;
+    }
+    nav ul ul li {
+        position: relative;
+        display: none;
+        position: relative;
+    }
+    nav ul li:hover ul li {
+        display: block;
+        animation: navmenu 500ms;
+    }
+>>>>>>> 41f72f967d9b44c90116ddf3a452b33a13897116
     @keyframes navmenu {
         0% {
             opacity: 0;
@@ -107,6 +151,7 @@ body {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
+<<<<<<< HEAD
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
@@ -118,6 +163,8 @@ body {
  main {
     padding:5%;
 
+=======
+>>>>>>> 41f72f967d9b44c90116ddf3a452b33a13897116
 }
 
 #contact h3 {
@@ -305,6 +352,7 @@ h1{
 }
 
   
+<<<<<<< HEAD
   to {opacity: 1}
 }
 
@@ -326,3 +374,5 @@ h3 {
     font-family: 'Roboto Condensed', sans-serif;
     margin:2%;
 }
+=======
+>>>>>>> 41f72f967d9b44c90116ddf3a452b33a13897116
