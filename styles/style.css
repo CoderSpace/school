@@ -17,6 +17,17 @@ html {
     height: 100%;
 }
 
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h2 {
+    background: #112233;
+    text-align: center;
+    color: white;
+}
 
 .wrapper {
     min-height: 100%;
@@ -27,11 +38,11 @@ html {
 
 
 footer {
-    width: 100%;
+    width:100%;
     bottom: 0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
-    font-size: 80%;
+    font-size: 1em;
     left: 0;
     right: 0;
     background-color: gray;
@@ -41,7 +52,9 @@ footer {
 }
 
 main {
-    padding:5%;
+    padding: 5%;
+    width:100%;
+    margin-top: 15%;
 }
 
 .img {
@@ -50,20 +63,24 @@ main {
 }
 
 @media(max-width:450px) {
-   
     footer {
         bottom: 0;
         border-top: 5px solid black;
     }
 }
 
+.navigationdesktop {
+    background: yellow;
+}
 
 .pf {
     text-align: center;
     font-size: 1em;
-}
     h1 {
         text-align: center;
+        color: DarkTurquoise;
+        background-color: black;
+        width: 100%;
     }
     main {
         padding: 5%;
@@ -72,7 +89,30 @@ main {
         padding: 2%;
         width: 50%;
     }
-  
+    nav a:hover {
+        background: #223433;
+        color: white;
+    }
+    nav ul {
+        list-style-type: none;
+    }
+    nav ul li {
+        float: left;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        line-height: 40px;
+        background: yellow;
+    }
+    nav ul ul li {
+        position: relative;
+        display: none;
+        position: relative;
+    }
+    nav ul li:hover ul li {
+        display: block;
+        animation: navmenu 500ms;
+    }
     @keyframes navmenu {
         0% {
             opacity: 0;
@@ -91,6 +131,18 @@ main {
     .p {
         float: right;
     }
+    
+.fa-twitter-square{
+      color:white;
+}
+
+.fa-instagram {
+      color:white;
+}
+
+.fa-envelope{
+      color:white;
+}    
 
 
 
@@ -248,6 +300,7 @@ body {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
+
 }
 
 #contact h3 {
