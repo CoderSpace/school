@@ -13,19 +13,17 @@
 	text-rendering:optimizeLegibility;
 }
 
-<<<<<<< HEAD
 
 h2 {
     background: #112233;
     text-align: center;
     color: white;
 }
-=======
+
 html {
     height: 100%;
 }
 
->>>>>>> 8069a544111109fb40e3d8fa0ce84e411714c39a
 
 footer {
     width: 100%;
@@ -42,12 +40,8 @@ footer {
 }
 
 main {
-<<<<<<< HEAD
     padding: 5%;
     margin-top: 15%;
-=======
-    padding:5%;
->>>>>>> 8069a544111109fb40e3d8fa0ce84e411714c39a
 }
 
 .img {
@@ -64,8 +58,6 @@ main {
 }
 
 
-<<<<<<< HEAD
-=======
 .pf {
     text-align: center;
     font-size: 1em;
@@ -91,7 +83,6 @@ main {
             top: 0px;
         }
     }
->>>>>>> 8069a544111109fb40e3d8fa0ce84e411714c39a
     .pf {
         text-align: center;
         font-size: 1.5em;
@@ -112,14 +103,12 @@ main {
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
-<<<<<<< HEAD
 
 #contact {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;}
 
-=======
 #contact {
 	background:#F9F9F9;
 	padding:25px;
@@ -137,7 +126,6 @@ main {
     padding:5%;
 
 }
->>>>>>> 8069a544111109fb40e3d8fa0ce84e411714c39a
 
 #contact h3 {
 	color: #f9f9f9;;
@@ -221,11 +209,11 @@ fieldset {
 
 
 
-<<<<<<< HEAD
 
 h1{
               text-align:center;
             }
+            
 .mySlides {
   display:none
   
@@ -352,10 +340,10 @@ html {
     background: #112233;
     text-align: center;
     color: white;
-=======
+}
+
 .p{
     float:right;
->>>>>>> 8069a544111109fb40e3d8fa0ce84e411714c39a
 }
 
 .navigationdesktop {
@@ -364,8 +352,6 @@ html {
     position: relative;
     z-index: 20;
     width: 100%;
-
-
 }
 
 nav {
@@ -435,7 +421,6 @@ nav ul ul li:hover ul {
         top: 0px;
     }
 }
-<<<<<<< HEAD
 
 /*zimmie's styles */
 
@@ -448,6 +433,8 @@ justify-content: stretch;
     display: flex;
  flex-direction:column; 
 margin-bottom: 4%;
+margin-top: 0%;
+padding:0%;
     
 }
 
@@ -475,5 +462,3 @@ margin-left: 18%;
     margin-top: .5%;
 }
 
-=======
->>>>>>> 8069a544111109fb40e3d8fa0ce84e411714c39a
