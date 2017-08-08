@@ -25,7 +25,7 @@ html {
 
 h2 {
     background: #112233;
-    text-align: center;
+    text-align: center;  
     color: white;
 }
 
@@ -94,7 +94,7 @@ main {
         height: 40px;
         line-height: 40px;
         line-height: 40px;
-        background: yellow;
+        background: ;
     }
     nav ul ul li {
         position: relative;
