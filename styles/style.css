@@ -69,8 +69,8 @@ main {
     font-size: 1em;
     h1 {
         text-align: center;
-        color: DarkTurquoise;
-        background-color: black;
+        color: white;
+        background-color: darkgray;
         width: 100%;
     }
     main {
