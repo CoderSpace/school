@@ -331,11 +331,10 @@ h1 {
 
 
 /*navbar*/
-
 * {
-    padding: 0;
+   padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
 html {
@@ -343,7 +342,7 @@ html {
 }
 
 .wrapper {
-    height: auto;
+    height:auto;
     width: 100%;
     position: relative;
 }
@@ -367,8 +366,10 @@ html {
 }
 
 nav {
+    position: static;
+    top:0px;
     height: 40px;
-    width: 100%;
+    width: 560px;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -433,7 +434,6 @@ nav ul ul li:hover ul {
         top: 0px;
     }
 }
-
 
 /*zimmie's styles */
 
