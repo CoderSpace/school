@@ -107,18 +107,36 @@ footer {
 }
 
 
-h2 {
+/** {
+   padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+html {
+    height: 100%;
+}
+
+.wrapper {
+    height:auto;
+    width: 100%;
+    position: relative;
+}
+
+
+.header1 {
     padding: 50px;
-    background: grey;
+    background: #112233;
     text-align: center;
-    color: white;
- }
+    color: lightgray;
+}
 
 .navigationdesktop {
-    background:white;
+    background: lightgray;
+
     position: relative;
     z-index: 20;
-    width:100%;
+    width: 100%;
 
 
 }
@@ -138,7 +156,7 @@ nav a {
 }
 
 nav a:hover {
-    background: black;
+    background: #223433;
     color: white;
 }
 
@@ -152,7 +170,7 @@ nav ul li {
     height: 40px;
     line-height: 40px;
     line-height: 40px;
-    background: white;
+    background: lightgray;
     z-index: 1;
 }
 
@@ -161,9 +179,23 @@ nav ul ul li {
     display: none;
 }
 
+nav ul ul ul {
+    display: none;
+}
+
 nav ul li:hover ul li {
     display: block;
     animation: navmenu 500ms;
+}
+
+nav ul ul li:hover ul {
+    display: block;
+    animation: navmenu 500ms;
+    position: absolute;
+    left: 140px;
+    width: 140px;
+    top: 0px;
+
 }
 
 @keyframes navmenu {
@@ -175,11 +207,12 @@ nav ul li:hover ul li {
         opacity: 1;
         top: 0px;
     }
-}
+}*/
+
 
 
 .grid div,
-header,
+
 footer {
   border: 1px solid grey;
   background-color: teal;
@@ -187,7 +220,11 @@ footer {
   color: #fff;
 }
 
-header, footer {
+.grid div:nth-child(odd) {
+  background-color: lightblue;
+}
+
+ footer {
   background-color: lightgray;
   grid-column: 1 / -1;
 }
@@ -195,7 +232,12 @@ header, footer {
 .grid {
   margin-top: 10%;
   display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(40%, 4fr));
-  grid-auto-rows: minmax(40%, auto);
+  grid-template-columns: repeat(auto-fill, minmax(40%, 5fr));
+  grid-auto-rows: minmax(20%, auto);
   grid-gap:10% 10%;
+}
+h3 {
+    background: #112233;
+    text-align: center;
+    color: white;
 }
