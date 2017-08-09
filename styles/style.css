@@ -24,7 +24,7 @@
 
 h2 {
     background: #112233;
-    text-align: center;
+    text-align: center;  
     color: white;
 }
 
@@ -70,7 +70,7 @@ footer {
         padding: 2%;
         width: 50%;
     }
-   
+
     @keyframes navmenu {
         0% {
             opacity: 0;
