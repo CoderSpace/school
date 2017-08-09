@@ -23,7 +23,7 @@
 
 h2 {
     background: #112233;
-    text-align: center;
+    text-align: center;  
     color: white;
 }
 
@@ -84,9 +84,18 @@ main {
         opacity: 0;
         top: 5px
     }
-    100% {
-        opacity: 1;
-        top: 0px;
+
+
+    @keyframes navmenu {
+        0% {
+            opacity: 0;
+            top: 5px
+        }
+        100% {
+            opacity: 1;
+            top: 0px;
+        }
+
     }
 }
 
