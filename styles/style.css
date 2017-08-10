@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans%7CRoboto');
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +12,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
@@ -23,7 +25,7 @@
 
 h2 {
     background: #112233;
-    text-align: center;  
+    text-align: center;
     color: white;
 }
 
@@ -58,370 +60,15 @@ footer {
 
 
 .pf {
+
     text-align: center;
     font-size: 1em;
-}
-
-
-h1 {
-    text-align: center;
-    color: white;
-    background-color: darkgray;
-    width: 100%;
 }
 
 main {
     padding: 5%;
 }
 
-.img {
-    padding: 2%;
-    width: 50%;
-}
-
-@keyframes navmenu {
-    0% {
-        opacity: 0;
-        top: 5px
-    }
-
-
-    @keyframes navmenu {
-        0% {
-            opacity: 0;
-            top: 5px
-        }
-        100% {
-            opacity: 1;
-            top: 0px;
-        }
-
-    }
-}
-
-.p {
-    float: right;
-}
-
-
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
-}
-
-
-#contact {
-    background: #F9F9F9;
-    padding: 25px;
-    margin: 50px 0;
-
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea,
-#contact button[type="submit"] {
-    font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
-}
-
-#contact {
-    background: #9e9e9e;
-    padding: 25px;
-    margin: 50px 0;
-
-}
-
-
-#contact h3 {
-    display: block;
-    font-size: 30px;
-    font-weight: 400;
-}
-
-#contact h4 {
-    margin: 5px 0 15px;
-    display: block;
-    font-size: 13px;
-    text-align: center;
-}
-
-fieldset {
-    border: medium none !important;
-    margin: 0 0 10px;
-    min-width: 100%;
-    padding: 0;
-    width: 100%;
-}
-
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
-#contact textarea {
-    width: 100%;
-    border: 1px solid #CCC;
-    background: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-}
-
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
-#contact textarea:hover {
-    -webkit-transition: border-color 0.3s ease-in-out;
-    -moz-transition: border-color 0.3s ease-in-out;
-    transition: border-color 0.3s ease-in-out;
-    border: 1px solid #AAA;
-}
-
-#contact textarea {
-    height: 100px;
-    max-width: 100%;
-    resize: none;
-}
-
-#contact button[type="submit"] {
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    background: #0CF;
-    color: #FFF;
-    margin: 0 0 5px;
-    padding: 10px;
-    font-size: 15px;
-}
-
-#contact button[type="submit"]:hover {
-    background: #09C;
-    -webkit-transition: background 0.3s ease-in-out;
-    -moz-transition: background 0.3s ease-in-out;
-    transition: background-color 0.3s ease-in-out;
-}
-
-#contact button[type="submit"]:active {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact input:focus,
-#contact textarea:focus {
-    outline: 0;
-    border: 1px solid #999;
-}
-
-::-webkit-input-placeholder {
-    color: #888;
-}
-
-:-moz-placeholder {
-    color: #888;
-}
-
-::-moz-placeholder {
-    color: #888;
-}
-
-:-ms-input-placeholder {
-    color: #888;
-}
-
-
-
-
-h1 {
-    text-align: center;
-}
-
-.mySlides {
-    display: none
-}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-}
-
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-
-.text {
-    color: #02a612;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.dot {
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-
-/*navbar*/
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    height: 100%;
-}
-
-.wrapper {
-    height: auto;
-    width: 100%;
-    position: relative;
-}
-
-
-.header1 {
-    padding: 50px;
-    background: #112233;
-    text-align: center;
-    color: lightgray;
-}
-
-.navigationdesktop {
-    background: lightgray;
-
-    position: relative;
-    z-index: 20;
-    width: 100%;
-
-
-}
-
-nav {
-    height: 40px;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background: #223433;
-    color: white;
-}
-
-nav ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    float: left;
-    width: 140px;
-    height: 40px;
-    line-height: 40px;
-    line-height: 40px;
-    background: lightgray;
-    z-index: 1;
-}
-
-nav ul ul li {
-    position: relative;
-    display: none;
-}
-
-nav ul ul ul {
-    display: none;
-}
-
-nav ul li:hover ul li {
-    display: block;
-    animation: navmenu 500ms;
-}
-
-nav ul ul li:hover ul {
-    display: block;
-    animation: navmenu 500ms;
-    position: absolute;
-    left: 140px;
-    width: 140px;
-    top: 0px;
-
-}
 
 @keyframes navmenu {
     0% {
@@ -432,44 +79,462 @@ nav ul ul li:hover ul {
         opacity: 1;
         top: 0px;
     }
-}
 
 
-/*zimmie's styles */
+    .p {
+        float: right;
+    }
 
-.zmain {
-    display: block;
-    flex-direction: column;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 4%
-}
+    .pf {
+        text-align: center;
+        font-size: 1em;
+    }
 
 
-.zbody {
-    background: white;
-    font-family: 'Roboto Condensed', sans-serif;
+    h1 {
+        text-align: center;
+        color: white;
+        background-color: darkgray;
+        width: 100%;
+    }
 
-}
+     @keyframes navmenu {
+            0% {
+                opacity: 0;
+                top: 5px
+            }
+            100% {
+                opacity: 1;
+                top: 0px;
+            }
 
-.centerpiece {
-    height: 60%;
-    margin-left: 11%;
-    margin-right: 11%;
-    margin-top: .75%;
-}
+        
+    }
 
-.cheader {
-    text-align: center;
-    margin-top: 2%;
-    background: white;
-    color: black;
-}
+    .p {
+        float: right;
+    }
 
-.pz {
-    margin-right: 10%;
-    display: flex;
-    margin-left: 10%;
-    margin-top: .5%;
-}
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea,
+    #contact button[type="submit"] {
+        font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+    }
+
+
+    #contact {
+        background: #F9F9F9;
+        padding: 25px;
+        margin: 50px 0;
+    }
+
+
+    #contact {
+        background: #9e9e9e;
+        padding: 25px;
+        margin: 50px 0;
+       
+    }
+
+
+    #contact h3 {
+        display: block;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    #contact h4 {
+        margin: 5px 0 15px;
+        display: block;
+        font-size: 13px;
+        text-align: center;
+        
+    }
+
+    fieldset {
+        border: medium none !important;
+        margin: 0 0 10px;
+        min-width: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    #contact input[type="text"],
+    #contact input[type="email"],
+    #contact input[type="tel"],
+    #contact input[type="url"],
+    #contact textarea {
+        width: 100%;
+        border: 1px solid #CCC;
+        background: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+    }
+
+    #contact input[type="text"]:hover,
+    #contact input[type="email"]:hover,
+    #contact input[type="tel"]:hover,
+    #contact input[type="url"]:hover,
+    #contact textarea:hover {
+        -webkit-transition: border-color 0.3s ease-in-out;
+        -moz-transition: border-color 0.3s ease-in-out;
+        transition: border-color 0.3s ease-in-out;
+        border: 1px solid #AAA;
+    }
+
+    #contact textarea {
+        height: 100px;
+        max-width: 100%;
+        resize: none;
+    }
+
+    #contact button[type="submit"] {
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        background: #0CF;
+        color: #FFF;
+        margin: 0 0 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    #contact button[type="submit"]:hover {
+        background: #09C;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+        #contact button[type="submit"]:active {
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        #contact input:focus,
+        #contact textarea:focus {
+            outline: 0;
+            border: 1px solid #999;
+        }
+
+            ::-webkit-input-placeholder {
+                color: #888;
+
+            }
+
+            :-moz-placeholder {
+                color: #888;
+            }
+
+            ::-moz-placeholder {
+                 color: #888;
+            }
+
+            :-ms-input-placeholder {
+                color: #888;
+            }
+
+
+
+
+            
+            .mySlides {
+                display: none
+            }
+
+            .slideshow-container {
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+            }
+
+            .prev,
+            .next {
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                width: auto;
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+            }
+                
+                
+                h1 {
+                    text-align: center;
+                }
+
+                .mySlides {
+                    display: none
+                }
+
+                .slideshow-container {
+                    max-width: 1000px;
+                    position: relative;
+                    margin: auto;
+                }
+                 .next {
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+
+                .prev:hover,
+                .next:hover {
+                    background-color: rgba(0, 0, 0, 0.8);
+                }
+
+                .active,
+                .dot:hover {
+                    background-color: #717171;
+                }
+
+                .fade {
+                    -webkit-animation-name: fade;
+                    -webkit-animation-duration: 1.5s;
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+
+                @-webkit-keyframes fade {
+                    from {
+                        opacity: .4
+                    }
+                    to {
+                        opacity: 1
+                    }
+                }
+
+                @keyframes fade {
+                    from {
+                        opacity: .4
+                    }
+                    to {
+                        opacity: 1
+                    }
+                 .text {color: #02a612;
+                    font-size: 15px;
+                    padding: 8px 12px;
+                    position: absolute;
+                    bottom: 8px;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .dot {
+                    cursor: pointer;
+                    height: 13px;
+                    width: 13px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color 0.6s ease;
+                }
+
+                .active,
+                .dot:hover {
+                    background-color: #717171;
+                }
+
+                .fade {
+                    -webkit-animation-name: fade;
+                    -webkit-animation-duration: 1.5s;
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+
+                @-webkit-keyframes fade {
+                    from {
+                        opacity: .4
+                    }
+                    to {
+                        opacity: 1
+                    }
+                }
+
+                @keyframes fade {
+                    from {
+                        opacity: .4
+                    }
+                    to {
+                        opacity: 1
+                    }
+                    
+                }
+
+
+                /*navbar*/
+                * {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                }
+
+                html {
+                    height: 100%;
+                }
+
+                .wrapper {
+                    height: auto;
+                    width: 100%;
+                    position: relative;
+                }
+
+
+                .header1 {
+                    padding: 50px;
+                    background: #112233;
+                    text-align: center;
+                    color: lightgray;
+                }
+
+                .navigationdesktop {
+                    background: lightgray;
+
+                    position: relative;
+                    z-index: 20;
+                    width: 100%;
+
+
+                }
+
+                nav {
+                    position:static;
+                    height: 40px;
+                    width: 560px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    top: 0px;
+                    display: block;
+                    margin: 0 auto;
+                    
+                }
+
+                nav a {
+                    display: block;
+                    text-decoration: none;
+                }
+
+                nav a:hover {
+                    background: #223433;
+                    color: white;
+                }
+
+                nav ul {
+                    list-style-type: none;
+                }
+
+                nav ul li {
+                    float: left;
+                    width: 140px;
+                    height: 40px;
+                    line-height: 40px;
+                    line-height: 40px;
+                    background: lightgray;
+                    z-index: 1;
+                }
+
+                nav ul ul li {
+                    position: relative;
+                    display: none;
+                }
+
+                nav ul ul ul {
+                    display: none;
+                }
+
+                nav ul li:hover ul li {
+                    display: block;
+                    animation: navmenu 500ms;
+                }
+
+                nav ul ul li:hover ul {
+                    display: block;
+                    animation: navmenu 500ms;
+                    position: absolute;
+                    left: 140px;
+                    width: 140px;
+                    top: 0px;
+
+                }
+                @keyframes navmenu {
+                    0% {
+                        opacity: 0;
+                        top: 5px
+                    }
+                    100% {
+                        opacity: 1;
+                        top: 0px;
+                    }
+                }
+
+                /*zimmie's styles */
+                .zmain {
+                     display: block;
+                    flex-direction: column;
+                    height: 100%;
+                    padding: 0;
+                    margin: 0;
+                    margin-bottom: 4%
+                }
+
+
+                .zbody {
+                    background: white;
+                    font-family: 'Roboto Condensed', sans-serif;
+
+                }
+
+                .centerpiece {
+                    height: 60%;
+                    margin-left: 11%;
+                    margin-right: 11%;
+                    margin-top: .75%;
+                }
+
+                .cheader {
+                    text-align: center;
+                    margin-top: 2%;
+                    background: white;
+                    color: black;
+                }
+
+                .pz {
+                    margin-right: 10%;
+                    display: flex;
+                    margin-left: 10%;
+                    margin-top: .5%;
+                }
+                
+                .zbody {
+                background: white;
+                font-family: 'Roboto Condensed', sans-serif;
+
+            }
+
+            .centerpiece {
+                height: 60%;
+                margin-left: 11%;
+                margin-right: 11%;
+                margin-top: .75%;
+            }
+
+            .cheader {
+                text-align: center;
+                margin-top: 2%;
+                background: white;
+                color: black;
+            }
+
+            .pz {
+                margin-right: 10%;
+                display: flex;
+                margin-left: 10%;
+                margin-top: .5%;
+            }

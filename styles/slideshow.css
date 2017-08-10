@@ -91,22 +91,6 @@ h1 {
     opacity: 1
   }
 }
-
-footer {
-  width:100%;
-  bottom:0;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  font-size: 80%;
-  left:0;
-  right:0;
-  background-color:gray;
-  border-color:white;
-  color:white;
-  display:block;
-}
-
-
 /** {
    padding: 0;
     margin: 0;
@@ -209,17 +193,6 @@ nav ul ul li:hover ul {
     }
 }*/
 
-
-
-.grid div,
-
-footer {
-  border: 1px solid grey;
-  background-color: teal;
-  padding: 0.2em;
-  color: #fff;
-}
-
 .grid div:nth-child(odd) {
   background-color: lightblue;
 }
@@ -240,4 +213,34 @@ h3 {
     background: #112233;
     text-align: center;
     color: white;
+}
+
+.gr{
+    display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap:10px 20%;
+}
+.nav-item{
+  display:none;
+}
+.nav-toggle{
+  display:none;
+}
+
+
+@media(max-width: 1000px){
+  .nav-item{
+    display: inline;
+  }
+  .nav-toggle{
+    display: inline-block; 
+    cursor: pointer;
+  }
+  .mobile-nav-hidden{
+    display: none;
+  }
+.wrapper{
+  display: none;
+}
 }
