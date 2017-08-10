@@ -211,22 +211,9 @@ nav ul ul li:hover ul {
 
 
 
-.grid div,
-
-footer {
-  border: 1px solid grey;
-  background-color: teal;
-  padding: 0.2em;
-  color: #fff;
-}
 
 .grid div:nth-child(odd) {
   background-color: lightblue;
-}
-
- footer {
-  background-color: lightgray;
-  grid-column: 1 / -1;
 }
 
 .grid {
@@ -241,9 +228,11 @@ h3 {
     text-align: center;
     color: white;
 }
-
+.t{
+  
+}
 .gr{
-    display:grid;
+   display:grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
   grid-gap:10px 20%;
@@ -257,6 +246,14 @@ h3 {
 
 
 @media(max-width: 1000px){
+  nav{
+    position:relative;
+    z-index: 1;
+     display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap:20 20%;
+  }
   .nav-item{
     display: inline;
   }
