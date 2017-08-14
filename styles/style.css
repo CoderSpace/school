@@ -362,6 +362,22 @@ h1 {
     margin-right: auto;
     display: block;
 }
+.grid {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 5fr));
+    grid-auto-rows: minmax(20%, auto);
+    grid-gap: 10% 10%;
+}
+
+
+.gr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px 20%;
+}
+
 
 .bio {
     padding: 2%;
@@ -465,6 +481,9 @@ nav .dropdown:hover .dropdown-content {
 .nav-toggle {
   display: none;
 }
+.mobile-dropdown-content{
+  display: none;  
+}
 
 @media (max-width: 600px) {
  
@@ -479,6 +498,15 @@ nav .dropdown:hover .dropdown-content {
   
   .mobile-nav-hidden {
     display: none;
+  }
+  .dropbtn, .dropdown{
+      display: none !important;
+  }
+  .mobile-dropdown-content{
+      display: block;
+  }
+  .grid{
+      display: block
   }
 }
 
@@ -581,22 +609,6 @@ button {
     }
 }
 
-.grid {
-    margin-top: 10%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 5fr));
-    grid-auto-rows: minmax(20%, auto);
-    grid-gap: 10% 10%;
-}
-
-
-.gr {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 10px 20%;
-}
-
 /*Styles for the table on the bell schedule page*/
 
 table {
@@ -609,7 +621,7 @@ td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 1%;
-    width: 100%;
+    width: 50em;
 }
 
 tr:nth-child(even) {
