@@ -64,6 +64,8 @@ footer {
     padding: 2%;
     line-height: 2;
     font-size: 1.1em;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -419,7 +421,14 @@ a:hover>.fa {
 /*navbar styles*/
 
 body {
-  margin:0%;
+  margin:0;
+  height: 100%;
+  width:100%;
+  position: relative;
+  padding-bottom: 23em;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 nav ul {
