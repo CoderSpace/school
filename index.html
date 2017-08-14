@@ -2,103 +2,39 @@
 <html>
 
 <head>
-    <script src="https://use.fontawesome.com/da2daf73c1.js"></script>
-    <link rel="stylesheet" href="styles/style.css" type="text/css" />
     <link rel="stylesheet" href="styles/slideshow.css" type="text/css" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
     <script src="https://use.fontawesome.com/11329dbfdc.js"></script>
 </head>
 
 <body>
     <header>
-        <button class="nav-toggle" id="nav-toggle">
+        <nav>
+            <button class="nav-toggle" id="nav-toggle">
         <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
         </button>
-        <nav>
+        <h2>School Name</h2>
             <div>
                 <ul class="nav-items mobile-nav-hidden" id="nav-items">
-                    <li class="nav-item"> <a href="../index.html">Home</a></li>
-                    <li class="nav-item"><a href="../staffdirectory.html">Staff</a></li>
-                    <li class="nav-item"><a href="../calendar.html">Calendar</a></li>
-                    <li class="nav-item"><a href="../bs.html">Bell Schedules</a></li>
-                    <li class="nav-item"> <a href="../contact.html">Contact</a></li>
+                    <li class="nav-item"> <a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="staffdirectory.html">Staff</a></li>
+                    <li class="nav-item"><a href="calendar.html">Calendar</a></li>
+                    <li class="nav-item"><a href="bs.html">Bell Schedules</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Grades</a>
+                        <div class="dropdown-content">
+                            <a href="https://parent.cps.k12.il.us/pc/default.aspx" target="_blank">Parent Portal</a>
+                            <a href="https://student.cps.k12.il.us/pc/studentlogin.aspx" target="_blank">Student Portal</a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
-
-        <div class="wrapper">
-
-            <h2 class=header1>School Name</h2>
-
-            <div class="navigationdesktop">
-
-                <nav>
-                    <ul>
-                        <li class="header"> <a href="index.html">Home</a></li>
-                        <li class="header"><a href="staffdirectory.html">Staff</a></li>
-                        <li class="header"><a href="calendar.html">Calendar</a></li>
-                        <li class="header"><a href="bs.html">Bell Schedules</a></li>
-                        <li class="header"><a href="#">Grades</a>
-                            <ul>
-
-                                <li><a href="https://parent.cps.k12.il.us/pc/default.aspx">Parent Portal</a></li>
-                                <li><a href="https://student.cps.k12.il.us/pc/studentlogin.aspx">Student Portal</a></li>
-                        </li>
-
-                        </ul>
-
-                    </ul>
-                </nav>
-            </div>
-        </div>
     </header>
 
     <main>
-
-        <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <img src="http://via.placeholder.com/350x150" style="width:100%">
-                <div class="text">School Picture 1</div>
-            </div>
-
-            <div class="mySlides fade">
-                <img src="http://via.placeholder.com/350x151" style="width:100%">
-                <div class="text">School Picture 2</div>
-            </div>
-
-            <div class="mySlides fade">
-                <img src="http://via.placeholder.com/350x152" style="width:100%">
-                <div class="text">School Picture 3</div>
-            </div>
-
-
-            <div class="mySlides fade">
-                <img src="http://via.placeholder.com/350x153" style="width:100%">
-                <div class="text">School Picture 4</div>
-            </div>
-            <div class="mySlides fade">
-                <img src="http://via.placeholder.com/350x154" style="width:100%">
-                <div class="text">School Picture 5</div>
-            </div>
-            <div class="mySlides fade">
-                <img src="http://via.placeholder.com/350x155" style="width:100%">
-                <div class="text">School Picture 6</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">
-                <</a>
-                    <a class="next" onclick="plusSlides(1)">></a>
-
-        </div>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-        </div>
+        
+        <img src="http://via.placeholder.com/350x150" style="width:100%">
 
         <section class="grid">
 
@@ -114,9 +50,9 @@
             <section>
                 <h2 class="item">Events</h2>
                 <div>
-            
+
                     <iframe src="https://calendar.google.com/calendar/embed?src=d1titoqi8lvobdqoa72om6lkn4%40group.calendar.google.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-            
+
                 </div>
             </section>
         </section>
@@ -124,25 +60,24 @@
 
     <footer>
 
-            <p class="pf"> <a href="https://goo.gl/maps/7QTzJKQUkFt">123 sesame street, Chicago,IL 60643</a> </p>
-            <p class="pf"> <a href="mailto:#">email@school.edu</a> </p>
-            <p class="pf"> Pohne number: <a href="tel:#">555-555-5555</a> </p>
-            <p class="pf"> Fax number: <a href="fax:+#">555-555-5555</a> </p>
-            
-            <div class="social_media">
-                
-                <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-                
-            </div>
-        </footer>
+        <p class="pf"> <a href="https://goo.gl/maps/7QTzJKQUkFt">123 sesame street, Chicago,IL 60643</a> </p>
+        <p class="pf"> <a href="mailto:#">email@school.edu</a> </p>
+        <p class="pf"> Pohne number: <a href="tel:#">555-555-5555</a> </p>
+        <p class="pf"> Fax number: <a href="fax:+#">555-555-5555</a> </p>
+
+        <div class="social_media">
+
+            <a href="#"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+
+        </div>
+    </footer>
 
 
 
 
 </body>
-<script type="text/javascript" src="js/slideshow.js"></script>
 <script type="text/javascript" src="js/nav.js"></script>
 
 
