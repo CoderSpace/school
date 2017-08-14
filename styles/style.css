@@ -33,6 +33,11 @@ html {
 h1 {
     text-align: center;
     font-size: 115%;
+    border-color:darkgrey;
+    border:solid;
+    height:2em;
+    background-color:darkgrey;
+    color:white;
 }
 
 h2 {
