@@ -85,12 +85,7 @@ footer {
     bottom: 0;
     
 }
-.logo{
-    position:absolute;
-    top:2%;
-    right: 60%;
-    
-}
+
 
 .img {
     width: 50%;
@@ -428,6 +423,11 @@ nav .dropdown:hover .dropdown-content {
   }
   .mobile-dropdown-content{
       display: block;
+  }
+  .grid{
+      display: block;
+      padding: 10%;
+      
   }
   .logo{
     position:absolute;
