@@ -102,9 +102,6 @@ footer {
         bottom: 0;
         border-top: 5px solid black;
     }
-    .gr{
-        
-    }
 }
 
 main {
@@ -432,9 +429,11 @@ nav .dropdown:hover .dropdown-content {
   .mobile-dropdown-content{
       display: block;
   }
-  .grid{
-      display: block
-  }
+  .logo{
+    position:absolute;
+    top: 1%;
+    left:.1%;
+    width: 20%;
 }
 
 button {
