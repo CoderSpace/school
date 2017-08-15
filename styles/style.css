@@ -303,13 +303,6 @@ h1 {
     line-height: 1.5;
 }
 
-p.pf>a:link {
-    color: white;
-}
-
-p.pf>a:hover {
-    color: #112233;
-}
 
 .calendar {
     display: flex;
