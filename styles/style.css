@@ -61,9 +61,7 @@ h2 {
 
 
 h3 {
-    background: #112233;
     text-align: center;
-    color: #80ffbf;
     padding: 4%;
 
 }
@@ -103,6 +101,9 @@ footer {
     footer {
         bottom: 0;
         border-top: 5px solid black;
+    }
+    .gr{
+        
     }
 }
 
