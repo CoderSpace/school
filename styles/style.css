@@ -308,7 +308,7 @@ p.pf>a:link {
 }
 
 p.pf>a:hover {
-    color: #112233;
+    color:#80ffbf;
 }
 
 .calendar {
@@ -332,7 +332,7 @@ a:link>.fa {
 }
 
 a:hover>.fa {
-    color: #112233;
+    color: #80ffbf;
 }
 
 /*navbar styles*/
@@ -357,6 +357,13 @@ nav ul {
     padding:2%;
   display:flex;
   justify-content:center;
+}
+
+.h{
+    background:none;
+    color:#112233;
+    border:none;
+    font-size:2em;
 }
 
 nav li a, .dropbtn {
