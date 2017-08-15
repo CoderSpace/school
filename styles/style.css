@@ -45,8 +45,12 @@ h1 {
 }
 h1 {
     background: #112233;
-    padding: 5%;
-    
+
+    text-align: center;
+    color: white;
+    padding: 2%;
+    width:100%;
+
 }
 h2 {
     background: #112233;
