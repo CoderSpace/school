@@ -67,6 +67,11 @@ h3 {
     padding: 4%;
 
 }
+  
+  .dab{
+      text-decoration:none !important;
+      
+  }
 
 
 footer {
@@ -267,10 +272,10 @@ h1 {
     }
 }
 
+
 .pf {
     text-align: center;
     font-size: 0.9em;
-    text-decoration:none;
     padding:0.2%;
 }
 
