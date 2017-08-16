@@ -93,13 +93,6 @@ footer {
     bottom: 0;
     
 }
-.logo{
-    position:absolute;
-    top:2%;
-    right: 60%;
-    height:5%;
-    
-}
 
 .img {
     width: 50%;
@@ -113,9 +106,6 @@ footer {
     footer {
         bottom: 0;
         border-top: 5px solid black;
-    }
-    .gr{
-        
     }
 }
 
@@ -452,8 +442,15 @@ nav .dropdown:hover .dropdown-content {
       display: block;
   }
   .grid{
-      display: block
+      display: block;
+      padding: 10%;
+      
   }
+  .logo{
+    position:absolute;
+    top: 1%;
+    left:.1%;
+    width: 20%;
 }
 
 button {
