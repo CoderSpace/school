@@ -308,11 +308,12 @@ h1 {
 
 p.pf>a:link {
     color: white;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 p.pf>a:hover {
     color:#80ffbf;
+     text-decoration:none;
 }
 
 .calendar {
@@ -333,6 +334,7 @@ iframe {
 
 a:link>.fa {
     color: white;
+    text-decoration:none;
 }
 
 a:hover>.fa {
