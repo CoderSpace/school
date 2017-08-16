@@ -308,6 +308,7 @@ h1 {
 
 p.pf>a:link {
     color: white;
+     text-decoration: none;
 }
 
 p.pf>a:hover {
